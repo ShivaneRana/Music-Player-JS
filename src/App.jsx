@@ -15,7 +15,7 @@ function App() {
   return (
       <>
         <h2>Choose a song...</h2>
-        <input ref={audioRef} type='file' accept='audio/*' onChange={handleInput}>
+        <input type='file' accept='audio/*' onChange={handleInput}>
         </input>
           {audioURL && (
             <>
